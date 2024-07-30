@@ -3,7 +3,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: nginx-config
-  namespace: nginx
+  namespace: nginx-proxy
 data:
   default.conf: |
     server {
